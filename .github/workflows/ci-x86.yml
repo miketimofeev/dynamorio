@@ -69,7 +69,7 @@ jobs:
     - name: Create Build Environment
       run: |
         sudo apt update
-        sudo apt-get -y install doxygen vera++ cmake zlib1g-dev libsnappy-dev \
+        sudo apt-get -y install g++-8 doxygen vera++ cmake zlib1g-dev libsnappy-dev \
           g++-multilib
 
     - name: Run Suite
