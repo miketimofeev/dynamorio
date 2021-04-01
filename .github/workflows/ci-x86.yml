@@ -29,7 +29,6 @@
 # DAMAGE.
 
 # Github Actions workflow for x86 Continuous Integration testing.
-
 name: ci-x86
 on: [push]
 
